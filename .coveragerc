@@ -1,0 +1,12 @@
+[run]
+source=demo_api
+
+[report]
+omit=*/migrations/*.py,*/apps.py,*/admin.py
+exclude_lines =
+    pragma: no cover
+    def __str__
+    def __unicode__
+    def __repr__
+
+show_missing = True
